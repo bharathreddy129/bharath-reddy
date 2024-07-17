@@ -1,0 +1,7 @@
+inp_ = input("enter a string : ")
+i = 0
+n_s = ''
+while i< len(inp_):
+    n_s = inp_[i] + n_s
+    i += 1
+print(n_s)
